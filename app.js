@@ -4,11 +4,11 @@ import './utils/msgSendRead.js'
 App({
   globalData: {
     // 腾讯云物联网通信平台中获取 产品ID和设备名称
-    productId: "PZZVOASWFG", // 产品ID
-    deviceName: "hi3861_mqtt", // 设备名称
+    productId: "", // 产品ID
+    deviceName: "", // 设备名称
     // 腾讯云控制台-访问管理-访问密钥-API密钥管理中获取 SecretId, SecretKey
-    secretId: "AKIDd6KJ2bw2sTpwnOlskMkskNkslOmunQow",
-    secretKey: "vazDE3e07zbx5xZyCCzYsxnNiofGcjaC",
+    secretId: "",
+    secretKey: "",
     wifi_or_hotspot: true,
   },
   onLaunch: function () {
