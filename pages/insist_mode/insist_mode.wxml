@@ -1,0 +1,78 @@
+<view>
+		<!-- <button type="default" bindtap="SendMsg">SendMsg</button> -->
+		<!-- <text class="center">{{message}}</text> -->
+  <!-- <view class='footer'>
+    <input type='text' bindinput='addMessage'></input>
+    <button bindtap='SendMsg'>发送</button>
+  </view> -->
+
+  <!-- <view wx:if="{{sty==0}}">
+  <view class="score" style="background-color:{{score}};" catchtap='score'>
+    <text>按钮一</text>
+  </view> -->
+</view>
+
+<!-- <button class='btn1' open-type='openSetting'>
+    <image class='btnImg' src='../../images/wechat.png'></image>
+    <view>确定</view>
+ </button> -->
+
+<!-- <view class='selects' >
+<block wx:key="index" wx:for='{{ selects }}'>
+<view class='select' id='{{index}}'bindtap='changeColor'>
+<block wx:if="{{index==clickId}}" >
+<button class='btn' bindtap='light_on'>
+{{ item }}
+<text>灯开</text>
+</button>
+</block>
+<block wx:else >
+<button class='btn'  style="background-color:burlywood" bindtap='light_off'>
+{{ item }}
+<text>灯关</text>
+</button>
+</block>
+</view>
+</block>
+</view> -->
+<view>
+<text class="center">请选择健身动作</text>
+</view>
+
+<view class = "nav-list1">
+  <view class = "temp">
+    <button class="submit" bindtap="onClick1">
+      <image class="tapimg1" src='/images/4.png'></image>
+      平板支撑</button>
+  </view>
+  <view class = "temp">
+    <button class="submit" bindtap="onClick3">
+      <image class="tapimg1" src='/images/3.png'></image>
+      V字支撑</button>
+  </view>
+</view>
+
+<view class = "nav-list1">
+  <view class = "temp">
+    <button class="submit" bindtap="onClick4">
+      <image class="tapimg1" src='/images/2.png'></image>
+      侧平板支撑</button>
+  </view>
+  <view class = "temp">
+    <button class="submit" bindtap="onClick5">
+      <image class="tapimg1" src='/images/1.png'></image>
+      反向支撑</button>
+  </view>
+</view>
+
+<view class="TopTips">
+  <view>
+    <text class="name">自律是生活，也是享受，它会给你见证奇迹的时刻。φ(゜▽゜*)♪</text>
+  </view>
+</view>
+
+<view class="content">
+	<image class='background' src="/images/osports.png" mode="aspectFill"></image>
+</view>
+
+<!-- </view> -->

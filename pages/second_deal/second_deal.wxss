@@ -1,0 +1,31 @@
+/* pages/second_deal/second_deal.wxss */
+
+.submit{
+  margin-top: 120rpx;
+  color: #fff;
+  border: 2rpx solid #00c8b6;
+  background-color: #00c8b6;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.section__title{
+  display: inline-block;
+  margin-top: 30rpx;
+  width: 100%;
+  text-align: center;
+}
+
+.section{
+  display: inline-block;
+  margin-top: 50rpx;
+  width: 100%;
+  text-align: center;
+}
+
+.checktext{
+  display: inline-block;
+  margin-top: 50rpx;
+  width: 60%;
+  text-align: center;
+}

@@ -1,0 +1,24 @@
+<view class="garage">
+  <mpProgress class="garage" config="{{config}}" percentage="{{percentage}}"></mpProgress>
+</view>
+
+<view class="status-ctn">
+    <view class="desc-text">动作次数</view>
+    <view class="status-count">{{my_count}}/{{max_count}}</view>
+</view>
+
+<view class="time">
+    <text class="desc">{{hour}} : {{minute}} : {{second}}</text>
+</view>
+<text class="haoshi">用时</text>
+
+<view class="TopTips">
+  <view>
+    <text class="name">锻炼身体要经常，要坚持，人同机器一样，经常运动才能不生锈。不管进行什么锻炼，都要坚持，这样，才可见成效。o(*￣︶￣*)o
+    </text>
+  </view>
+</view>
+
+<view class="content">
+	<image class='background' src="/images/osports.png" mode="aspectFill"></image>
+</view>

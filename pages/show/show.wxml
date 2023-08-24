@@ -1,0 +1,76 @@
+<view class = "nav-list1">
+  <view class = "temp">
+    <button class="submit" bindtap="onClickEntertain">
+      <image class="tapimg1" src='/images/temp.png'></image>
+      <text>温度：{{temp_}} ℃ </text>
+    </button>
+  </view>
+  <view class = "temp">
+    <button class="submit" bindtap="onClickEntertain">
+      <image class="tapimg1" src='/images/humi.png'></image>
+      <text>湿度：{{humi_}} % </text>
+    </button>
+  </view>
+</view>
+
+<view class="TopTips">
+  <view wx:if="{{temp_ <= 30.0 && humi_ >= 40.0 && temp_ >= 18.0 && humi_ <= 70.0}}">
+    <text class="name">当前环境非常适宜运动😺。海燕在大海上翱翔，雄鹰在搏击长空，希望你可以勇往直前╰(*°▽°*)╯，向着胜利的彼岸，冲吧！😘</text>
+  </view>
+  <view wx:elif="{{temp_ < 18.0}}">
+    <text class="name">当前温度过低🥶，请注意添加衣物，移步到更温和的环境再进行锻炼哦~😊~(￣▽￣)~*~(￣▽￣)~*~(￣▽￣)~*</text>
+  </view>
+  <view wx:elif="{{temp_ > 30.0}}">
+    <text class="name">当前温度过高♨️，请马上开启空调，不然本小姐要生气了😡呜呜呜呜(。﹏。*)(。﹏。*)(。﹏。*)</text>
+  </view>
+  <view wx:elif="{{humi_ < 40.0}}">
+    <text class="name">当前环境过于干燥🫥注意锻炼时及时补充水分哦=￣ω￣==￣ω￣=~(￣▽￣)~*~(￣▽￣)~*~(￣▽￣)~*</text>
+  </view>
+  <view wx:elif="{{humi_ > 70.0}}">
+    <text class="name">当前环境过于潮湿😰注意不要在高温潮湿环境下锻炼，小心中暑哦~=￣ω￣==￣ω￣=~(￣▽￣)~*</text>
+  </view>
+</view>
+
+
+<view class="container">
+  <view class="divLine"></view>
+</view>
+
+<view class = "nav-list2">
+  <view class = "temp">
+    <button class="submit" bindtap="onClickEntertain">
+      <image class="tapimg2" src='/images/heart.png'></image>
+      <text>心率：{{hr_}} </text><text class="jj">BPM</text>
+    </button>
+  </view>
+  <view class = "temp">
+    <button class="submit" bindtap="onClickEntertain">
+      <image class="tapimg1" src='/images/o2.png'></image>
+      <text>血氧：{{o2_}} % </text>
+    </button>
+  </view>
+</view>
+
+<view class="TopTips2">
+	<text class="name">Tips：请将手指按紧传感器，为保证测量精度，需要等待4-5s才能显示正确结果哦~(￣y▽,￣)╭ §(*￣▽￣*)§</text>
+</view>
+
+<view class="container">
+  <view class="divLine2"></view>
+</view>
+
+
+<!-- <view class="container2" >
+    <view class="search-body">
+        <input type="text" bindinput='inputYou' placeholder="请填入你的体重"/>     
+    </view>
+    <view>
+      <button bindtap="check_weigh" class="button2">
+        <image class="tapimg3" src='/images/weigh.png'></image>
+      记录今日体重<image class="tapimg3" src='/images/weigh.png'></image></button>
+    </view>
+</view> -->
+
+<view class="content">
+	<image class='background' src="/images/osports.png" mode="aspectFill"></image>
+</view>

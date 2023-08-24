@@ -1,0 +1,38 @@
+<view>
+<text class="center">请选择健身模式</text>
+</view>
+<view class = "nav-list1">
+  <view class = "temp">
+    <button class="submit" bindtap="onClickSolid">
+      <image class="tapimg1" src='/images/sports1.png'></image>
+        坚持模式</button>
+  </view>
+  <view class = "temp">
+    <button class="submit" bindtap="onClickExpe">
+      <image class="tapimg1" src='/images/sports2.png'></image>
+        体验模式</button>
+</view>
+</view>
+
+<view class = "nav-list1">
+  <view class = "temp">
+    <button class="submit" bindtap="onClickNotlimit">
+      <image class="tapimg1" src='/images/sports3.png'></image>
+        无尽模式</button>
+  </view>
+  <view class = "temp">
+    <button class="submit" bindtap="onClickEntertain">
+      <image class="tapimg1" src='/images/sports4.png'></image>
+        娱乐模式</button>
+  </view>
+</view>
+
+<view class="TopTips">
+  <view>
+    <text class="name">汗水会让你感觉每天都是真实存在的，而不是虚无。~(￣▽￣)~*</text>
+  </view>
+</view>
+
+<view class="content">
+	<image class='background' src="/images/osports.png" mode="aspectFill"></image>
+</view>

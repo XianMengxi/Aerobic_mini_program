@@ -1,0 +1,66 @@
+<view class="section" wx:if="{{type == 'warmUp'}}">
+  <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray_hot}}">
+    <view class="picker">
+      动作顺序：{{multiArray_hot[0][multiIndex[0]]}} {{multiArray_hot[1][multiIndex[1]]}} {{multiArray_hot[2][multiIndex[2]]}} {{multiArray_hot[3][multiIndex[3]]}}
+    </view>
+  </picker>
+</view>
+<view class="section" wx:elif="{{type == 'yoga'}}">
+  <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray_yoga}}">
+    <view class="picker">
+      动作顺序：{{multiArray_yoga[0][multiIndex[0]]}} {{multiArray_yoga[1][multiIndex[1]]}} {{multiArray_yoga[2][multiIndex[2]]}} {{multiArray_yoga[3][multiIndex[3]]}}
+    </view>
+  </picker>
+</view>
+<view class="section" wx:elif="{{type == 'yangwo'}}">
+  <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray_yangwo}}">
+    <view class="picker">
+      动作顺序：{{multiArray_yangwo[0][multiIndex[0]]}} {{multiArray_yangwo[1][multiIndex[1]]}} {{multiArray_yangwo[2][multiIndex[2]]}} {{multiArray_yangwo[3][multiIndex[3]]}}
+    </view>
+  </picker>
+</view>
+<view class="section" wx:else>
+  <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray_redu}}">
+    <view class="picker">
+      动作顺序：{{multiArray_redu[0][multiIndex[0]]}} {{multiArray_redu[1][multiIndex[1]]}} {{multiArray_redu[2][multiIndex[2]]}} {{multiArray_redu[3][multiIndex[3]]}}
+    </view>
+  </picker>
+</view>
+
+<view class="page-body">
+    <view class="page-section page-section-gap">
+      <label class="checkbox">
+        <text class = "checktext">动作列表</text>
+        <checkbox value="cb" checked="true" class = "check"/>
+      </label>
+    </view>
+    <view class="page-section page-section-gap">
+      <label class="checkbox">
+        <text class = "checktext">动作评价</text>
+        <checkbox value="cb" checked="true" class = "check"/>
+      </label>
+    </view>
+    <view class="section section_gap">
+            <text class="section__title">每个动作时间间隔(s)</text>
+            <view class="body-view">
+                <slider bindchange="slider1change" left-icon="cancel" right-icon="success_no_circle" min="1" max="20" show-value/>
+            </view>
+        </view>
+        <view class="section section_gap">
+            <text class="section__title">循环次数</text>
+            <view class="body-view">
+                <slider bindchange="slider2change" left-icon="cancel" right-icon="success_no_circle" min="1" max="10" show-value/>
+            </view>
+        </view>
+        <view class="section section_gap">
+            <text class="section__title">每个动作持续时间(s)</text>
+            <view class="body-view">
+                <slider bindchange="slider3change" left-icon="cancel" right-icon="success_no_circle" min="5" max="30" show-value/>
+            </view>
+        </view>
+</view>    
+
+<view>
+    <button class="submit" bindtap="onClickJump">确认</button>
+</view>
+

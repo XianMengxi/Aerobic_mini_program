@@ -1,0 +1,18 @@
+<view>
+<text class="center">跟着视频愉快地锻炼吧！！！</text>
+</view>
+
+<video class = "video" src="{{videoUrl}}"> </video>
+
+<view class="content">
+	<image class='background' src="/images/osports.png" mode="aspectFill"></image>
+</view>
+
+<view class="garage">
+  <mpProgress class="garage" config="{{config}}" percentage="{{percentage}}"></mpProgress>
+</view>
+
+<view class="status-ctn">
+    <view class="desc-text">分数</view>
+    <view class="status-count">{{my_count}}/{{max_count}}</view>
+</view>

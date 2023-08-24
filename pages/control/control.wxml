@@ -1,0 +1,42 @@
+<view>
+<text class="center">请选择健身动作</text>
+</view>
+
+<view class = "nav-list1">
+  <view class = "temp">
+    <button class="submit" bindtap="onClick1">
+      <image class="tapimg1" src='/images/sports5.png'></image>
+      蹲起</button>
+  </view>
+  <view class = "temp">
+    <button class="submit" bindtap="onClick2">
+      <image class="tapimg1" src='/images/sports1.png'></image>
+      开合跳</button>
+  </view>
+</view>
+
+<view class = "nav-list1">
+  <view class = "temp">
+    <button class="submit" bindtap="onClick3">
+      <image class="tapimg1" src='/images/5.png'></image>
+      仰卧起坐</button>
+  </view>
+  <view class = "temp">
+    <button class="submit" bindtap="onClick4">
+      <image class="tapimg1" src='/images/6.png'></image>
+      波比跳</button>
+  </view>
+</view>
+
+<view class="TopTips">
+  <view>
+    <text class="name">思想开朗，情绪轻松愉快，是健康的根本。体脑并用，锻炼第一，是我多年的体会。o(*￣︶￣*)o
+    </text>
+  </view>
+</view>
+
+<view class="content">
+	<image class='background' src="/images/osports.png" mode="aspectFill"></image>
+</view>
+
+

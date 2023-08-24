@@ -1,0 +1,19 @@
+<view class="content">
+	<image class='background' src="/images/osports.png" mode="aspectFill"></image>
+</view>
+
+<view class="garage">
+  <mpProgress class="garage" config="{{config}}" percentage="{{percentage}}"></mpProgress>
+</view>
+
+<view class="status-ctn">
+    <view class="desc-text">动作次数</view>
+    <view class="status-count">{{my_count}}/{{max_count}}</view>
+</view>
+
+<view class="TopTips">
+  <view>
+    <text class="name">只有拥有健康，才能让自己拥有身体革命的本钱，坚持运动，让自己保持一份自律之心，相信未来的我一定会有一个完美的身材。o(*￣︶￣*)o
+    </text>
+  </view>
+</view>

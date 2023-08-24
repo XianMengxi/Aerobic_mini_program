@@ -1,0 +1,220 @@
+.body {
+  margin: 10rpx 20rpx;
+}
+
+.box {
+  padding: 0rpx 20rpx;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+.cell {
+  margin-top: 10rpx;
+  margin-bottom: 40rpx;
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+  height: 100rpx;
+}
+
+.left {
+  width: 50%;
+  text-align: left;
+}
+
+.right {
+  width: 40%;
+  text-align: right;
+}
+
+.unit {
+  width: 10%;
+  text-align: right;
+}
+
+.content {
+  top: 600rpx;
+  left: 60rpx;
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+
+.nav-list1{
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0px;
+  
+}
+
+.nav-list2{
+  display: flex;
+  justify-content: space-around;
+  top: 500rpx;
+  left: 10rpx;
+  position:fixed; 
+}
+
+.submit{
+  width: 180px;
+  height: 60px;
+  border-radius: 4pt;
+  border: chocolate;
+}
+
+.tapimg1{  
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.tapimg2{  
+  width: 50rpx;
+  height: 80rpx;
+}
+
+.tapimg3{  
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.jj{
+  font-size: 28rpx;
+}
+
+
+/*分割线样式*/
+.divLine{
+  background: #6c7065;
+  width: 100%;
+  height: 2rpx;
+  position:fixed; 
+  top: 470rpx;
+} 
+
+.divLine2{
+  background: #6c7065;
+  width: 100%;
+  height: 2rpx;
+  position:fixed; 
+  top: 860rpx;
+}
+
+.name{
+   color: #422c6e;
+   font-size: 30rpx;
+   width: 500rpx;
+}
+
+.TopTips{ font-size: 22rpx; color: #526BE0; display: block; text-align: center;  margin: 0 auto; width: 65%; padding: 10rpx 0;}
+.TopTips text{ display: block; }
+
+.TopTips2{ font-size: 22rpx; color: #526BE0; display: block; text-align: center;  margin: -120rpx 120rpx; width: 65%; padding: 10rpx 0;}
+.TopTips2 text{ display: block; }
+
+
+.search-body {
+  position: absolute;
+  width: 600rpx;
+  height: 76rpx;
+  margin: 0 auto;
+  line-height: 76rpx;
+  top: 30%;
+  left: 50%;
+  margin-left: -300rpx;
+  color: rgb(51, 43, 43);
+  border: 1rpx solid #888;
+  border-radius: 40rpx;
+  position:fixed; 
+  margin-top: 550rpx;
+  /*border: 1px solid red;*/
+}
+
+.search-body input {
+  display: inline-block;
+  width: 500rpx;
+  height: 76rpx;
+  padding-left: 34rpx;
+}
+
+.search-body input::-webkit-input-placeholder {
+  color: #b2b2b2;
+}
+
+.search-body-icon {
+  position: absolute;
+  top: 50%;
+  right: 20rpx;
+  height: 76rpx;
+  margin-top: -30rpx;
+  line-height: 76rpx;
+}
+
+.Undreaming_Body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button2{
+  width: 600rpx;
+  height: 76rpx;
+  border-radius: 70rpx;
+  margin-top: -50rpx;
+}
+
+/* miniprogram/pages/add/add.wxss */
+
+.btn{ width: 90%; border-radius: 20px; margin-top: 60px;
+  /* box-shadow: 0 0 5px #888; */
+}
+
+.selectList{ width: 90%;  border: 1px solid #E8E8E8;border-radius: 20px;height: 40px; line-height: 40px; box-sizing: border-box; padding: 0 20px; margin-top: 20px;}
+
+.radio{ margin-right: 10px;}
+.radio-group{ padding-top: 20px; padding-bottom: 20px;}
+
+.map{
+	width: 90%;
+	height: 70px;
+	border-radius: 3px;
+	box-shadow: rgba(5,26,180,0.15) 0px 1px 8px;
+	margin: -220px 16px; 
+	background: #fff;
+	position: relative;	
+}
+
+.map .button{ 
+	box-shadow: 0 3px 5px rgba(5,26,180,0.35);
+	line-height: 30px;
+	font-weight: bold;
+	border-radius: 15px;
+	font-size: 12px;
+	background: linear-gradient(135deg, #576FEC 0%, #576FEC 76%, #536DEC 76%);
+	color: #fff;
+	width: 80px;
+	position: absolute;
+	right: 16px;
+	top: 35px;
+ }
+.map .button.ed{ background: #CACACA; box-shadow: none; }
+.top{ margin-bottom: 0; border-bottom:1px dotted #E5E5E4;  }
+.bottom{ margin-top: 0px;}
+.map .tittle{ font-size: 10px; color:#888888; position: absolute; left: 16px; top:15px;  }
+.map .picker{ font-size: 16px;  position: absolute; left: 8px; width: 200px; top: 19px;}
+.map .picker .icon{ font-size: 10px; color:#888888;  position: absolute; left: 140px; top: 5px; transform:rotate(90deg);}
+
+.button{ 
+  margin-top:20rpx;
+	box-shadow: 0 3px 5px rgba(5,26,180,0.35);
+	line-height: 30px;
+	font-weight: bold;
+	border-radius: 15px;
+	font-size: 12px;
+	background: linear-gradient(135deg, #576FEC 0%, #576FEC 76%, #536DEC 76%);
+	color: #fff;
+	width: 500rpx;
+ }
+
+ .TopTips{ font-size: 22rpx; color: #526BE0; display: block; text-align: center; margin-top: 50rpx;}

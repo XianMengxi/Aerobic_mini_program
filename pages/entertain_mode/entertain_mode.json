@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "mpProgress": "mp-progress/component/mp-progress"
+  }
+}
